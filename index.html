@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <style>
+            body{
+                background:pink;
+                background-size: 100px auto;
+                font-family: Arial, Helvetica; sans-serif;
+            }
+            
+            a{
+                color:white;
+            }
+            
+            a:hover{
+                color:purple;
+            }
+        </style>
+    </head>       
+    
+    
+    <body>
+        <h1>Hola Mundo!</h1>
+        <p><a href="https://www.google.com/"> Anda a Google </a></p>
+        <p>Este es otro párrafo</p>
+        <hr>
+        <img src="http://www.fau.uchile.cl/u/ImageServlet?idDocumento=142329&indice=0">
+        <p>La fau es:</p>
+        <ul>
+            <li>vieja</li>
+            <li>fea</li>
+            <li>fome</li>
+        </ul>
+        <p><small>Pero la quiero.</small> </p> 
+        <button onclick= "despedida()"> Bueno Chao</button>
+        <script>
+            function despedida() {
+                var a = 10.03; //número
+                var b = "Galileo"; //string
+                var c = false; //true & fals, 1 y 0
+                var d = ["Galileo", "Figaro", "Magnifico"] //lista con posiciones
+                var e = {nombre:"Umbrella Academy", actriz: "Ellen Page"} // llamar a objetos - relación 
+                var f = {primera:["Rojo", "Azul", "Calipso"], segunda: ["Gallo", "Pollo", "Huevo"]}
+                document.write(a*10 +", "+ b +", "+ c +", "+ d[2]+", "+ e.nombre +", " + f.segunda[0] +", " + f.primera[1] + ".")
+            }
+        </script>
+        
+    </body>
+</html>
